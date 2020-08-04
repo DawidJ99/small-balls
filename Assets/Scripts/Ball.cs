@@ -5,16 +5,21 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     private Rigidbody rb = default;
-    private Vector3 destination = Vector3.zero;
+    private Vector3 respawnPoint = Vector3.zero;
 
-    private void Awake()
+    public void Init(Vector3 respawnPoint)
     {
         rb = GetComponent<Rigidbody>();
+        this.respawnPoint = respawnPoint;
     }
 
-    public void AddForce(Vector3 fan, float fanStrength)
+    public void AddForce(Vector3 destination, float strength)
     {
-        destination = -(fan - transform.position);
-        rb.AddForce(destination * fanStrength, ForceMode.Acceleration);
+        rb.AddForce(destination * strength, ForceMode.Acceleration);
+    }
+
+    public void Respawn()
+    {
+        transform.position = respawnPoint;
     }
 }

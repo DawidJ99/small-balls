@@ -254,7 +254,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1354179355682954482}
   mouseSpeed: 2
-  controllerSpeed: 7
   followSpeed: 10
   minAngle: -35
   maxAngle: 35
@@ -397,8 +396,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3e4124730187d44891709b6aea6f35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  respawn: {fileID: 0}
   fan: {fileID: 1354179356400847560}
-  target: {fileID: 1354179355682954483}
+  ball: {fileID: 1354179355682954483}
   rotateSpeed: 100
   fanStrength: 3
   powerOn: 0

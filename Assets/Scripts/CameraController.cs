@@ -6,7 +6,6 @@ public class CameraController : MonoBehaviour
 {
     [SerializeField] private Transform target = default;
     [SerializeField] private float mouseSpeed = 8f;
-    [SerializeField] private float controllerSpeed = 7f;
     [SerializeField] private float followSpeed = 10f;
     [SerializeField] private float minAngle = -35f;
     [SerializeField] private float maxAngle = 35f;
@@ -33,8 +32,6 @@ public class CameraController : MonoBehaviour
     {
         mouseX = Input.GetAxis("Mouse X");
         mouseY = Input.GetAxis("Mouse Y");
-
-        Debug.Log(target);
     }
 
     private void FixedUpdate()
