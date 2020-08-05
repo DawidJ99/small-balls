@@ -8,8 +8,7 @@ public class UntouchableWall : MonoBehaviour
     {
         if (collision.collider.TryGetComponent(out Ball ball))
         {
-            FanManager.Instance.PowerOn = false;
-            ball.Respawn();
+            GameManager.Instance.Respawn();
         }
     }
 }

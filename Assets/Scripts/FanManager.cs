@@ -12,7 +12,6 @@ public class FanManager : MonoBehaviour
 
     #endregion
 
-    [SerializeField] private Transform respawn = default;
     [SerializeField] private Transform fan = default;
     [SerializeField] private Ball ball = default;
     [SerializeField] private float rotateSpeed = 5f;
@@ -27,7 +26,7 @@ public class FanManager : MonoBehaviour
         if (!Instance)
             Instance = this;
 
-        ball.Init(respawn.position);
+        ball.Init();
     }
 
     private void Update()
