@@ -107,7 +107,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 898744169026205092}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.34, y: -9.37, z: 3.73}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7043851199757959669}
@@ -144,7 +144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4029619204105501084}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3280452761707555164}
@@ -240,7 +240,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3db59436609e74646aab558346b0fd53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fanTransform: {fileID: 2651545200082766693}
 --- !u!1 &4033715078748783690
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,7 +361,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6375467695536513166}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2651545200082766693}
@@ -381,5 +380,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d3e4124730187d44891709b6aea6f35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 100
-  target: {fileID: 7043851199757959669}
+  respawn: {fileID: 0}
+  fan: {fileID: 0}
+  ball: {fileID: 0}
+  rotateSpeed: 5
+  fanStrength: 5
+  powerOn: 0
