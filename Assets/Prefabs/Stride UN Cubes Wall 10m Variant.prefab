@@ -48,6 +48,7 @@ GameObject:
   - component: {fileID: 7704797766880874538}
   - component: {fileID: 6004172127395023765}
   - component: {fileID: 741663299974222516}
+  - component: {fileID: 710174788279145823}
   m_Layer: 0
   m_Name: Obstacle
   m_TagString: Untagged
@@ -96,7 +97,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 9aa8c316ab8ba814da41c2d9505cce91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -347,6 +348,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &710174788279145823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2743008433551898481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77674397019cf104cb35706362f3d138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6352681839607802575
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +373,7 @@ GameObject:
   - component: {fileID: 1206635464927341851}
   - component: {fileID: 5141607380178952163}
   - component: {fileID: 6407353444656040241}
+  - component: {fileID: 2415696481214644751}
   m_Layer: 0
   m_Name: Obstacle (3)
   m_TagString: Untagged
@@ -408,7 +422,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 9aa8c316ab8ba814da41c2d9505cce91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -659,6 +673,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2415696481214644751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6352681839607802575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77674397019cf104cb35706362f3d138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6895684759671804428
 GameObject:
   m_ObjectHideFlags: 0
@@ -672,6 +698,7 @@ GameObject:
   - component: {fileID: 3385003592873264041}
   - component: {fileID: 2699452271830943695}
   - component: {fileID: 1663214279952357715}
+  - component: {fileID: 1427061620116794461}
   m_Layer: 0
   m_Name: Obstacle (1)
   m_TagString: Untagged
@@ -720,7 +747,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 9aa8c316ab8ba814da41c2d9505cce91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -971,6 +998,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1427061620116794461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6895684759671804428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77674397019cf104cb35706362f3d138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7494888096084963560
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,6 +1023,7 @@ GameObject:
   - component: {fileID: 4941419429834571687}
   - component: {fileID: 6973566940376193668}
   - component: {fileID: 1539655190348307639}
+  - component: {fileID: 2890011522518815708}
   m_Layer: 0
   m_Name: Obstacle (4)
   m_TagString: Untagged
@@ -1032,7 +1072,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 9aa8c316ab8ba814da41c2d9505cce91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1283,6 +1323,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &2890011522518815708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7494888096084963560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77674397019cf104cb35706362f3d138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9180188843161163388
 GameObject:
   m_ObjectHideFlags: 0
@@ -1296,6 +1348,7 @@ GameObject:
   - component: {fileID: 2874848569480851968}
   - component: {fileID: 4726249657291467860}
   - component: {fileID: 5573590297977034561}
+  - component: {fileID: 6542784373042724435}
   m_Layer: 0
   m_Name: Obstacle (2)
   m_TagString: Untagged
@@ -1344,7 +1397,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 9aa8c316ab8ba814da41c2d9505cce91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1595,6 +1648,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &6542784373042724435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9180188843161163388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77674397019cf104cb35706362f3d138, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5413003797023876009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1666,10 +1731,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7844165092447423722, guid: 31e3daf8a7c66fa448ea9828a36aac8e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9aa8c316ab8ba814da41c2d9505cce91, type: 2}
     - target: {fileID: 8566797875251748141, guid: 31e3daf8a7c66fa448ea9828a36aac8e, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8817718880825425017, guid: 31e3daf8a7c66fa448ea9828a36aac8e, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9aa8c316ab8ba814da41c2d9505cce91, type: 2}
     - target: {fileID: 9171240153332512027, guid: 31e3daf8a7c66fa448ea9828a36aac8e, type: 3}
       propertyPath: m_Mesh
       value: 
