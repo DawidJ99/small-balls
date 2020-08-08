@@ -9,6 +9,7 @@ public class Checkpoint : MonoBehaviour
         if (other.TryGetComponent(out Ball ball))
         {
             GameManager.Instance.LastCheckpoint = transform;
+            Destroy(GetComponent<Collider>());
         }
     }
 }

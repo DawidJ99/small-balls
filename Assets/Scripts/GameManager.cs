@@ -21,6 +21,4 @@ public class GameManager : MonoBehaviour
         FanManager.Instance.PowerOn = false;
         ball.Respawn(lastCheckpoint.position);
     }
-
-    
 }

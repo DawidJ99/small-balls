@@ -20,6 +20,9 @@ public class FanManager : MonoBehaviour
     
     private float horizontal = default;
     private float fanAngle = default;
+    private float smoothXVelocity = 0f;
+
+    private float dirAngle = 0;
 
     private void Awake()
     {
@@ -40,8 +43,15 @@ public class FanManager : MonoBehaviour
 
         horizontal = Input.GetAxis("Horizontal") * rotateSpeed * Time.deltaTime;
 
+        RaycastHit hit;
+        if (Physics.Raycast(ball.transform.position, Vector3.down, out hit, 0.6f))
+        {
+            float angle = 90 - Vector3.Angle(hit.normal, -Vector3.forward);
+            dirAngle = Mathf.SmoothDampAngle(dirAngle, angle, ref smoothXVelocity, 0.1f);
+        }
+
         fanAngle -= horizontal;
-        transform.localRotation = Quaternion.Euler(0, fanAngle, 0);
+        transform.localRotation = Quaternion.Euler(-dirAngle, fanAngle, 0);
 
     }
 
